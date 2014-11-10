@@ -22,6 +22,12 @@ $ docker run -d -p 8081:8081 asm2545w/artifactory:3.4.1
 
 Then point the browser to `http://localhost:8081`.
 
+Sync artifactory data in dropbox
+-------
+Just mounting an host => docker shared volume and having the artifactory data stored in dropbox:
+
+    $ docker run -d -p 8081:8081 asm2545w/artifactory:3.4.1 -v /path/to/dropbox/artifactory:/artifactory/data
+
 Links
 =====
 
