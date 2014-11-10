@@ -16,11 +16,6 @@ Artifactory directories `data`, `log` and `backup` directories are exposed as vo
     /artifactory/logs
     /artifactory/backup
 
-Pull docker image
-=======
-
-    $ docker pull asm2545w/artifactory:3.4.1
-
 How to run it
 =============
 $ docker run -d -p 8081:8081 asm2545w/artifactory:3.4.1
@@ -30,7 +25,7 @@ Then point the browser to `http://localhost:8081`.
 Links
 =====
 
-[Docker hub][2].
+See [Docker hub repository][2].
 
 
 
