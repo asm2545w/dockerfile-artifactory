@@ -30,9 +30,9 @@ Then point the browser to `http://localhost:8081`.
 Links
 =====
 
-Dockerfile in [Github][2].
+[Docker hub][2].
 
 
 
   [1]: http://www.jfrog.com/open-source
-  [2]: http://github.com/asm2545w/dockerfile-artifactory
+  [2]: http://registry.hub.docker.com/u/asm2545w/artifactory
